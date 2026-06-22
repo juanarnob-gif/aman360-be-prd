@@ -1,19 +1,6 @@
-# fly.toml app configuration file generated for aman360-be-prd on 2026-06-22T16:51:17Z
-#
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
-
-app = 'aman360-be-prd'
-primary_region = 'ams'
-
-[build]
+app = "rix-new"
+primary_region = "ams"
 
 [http_service]
-  internal_port = 8080
+  internal_port = 80
   force_https = true
-
-[[vm]]
-  memory = '1gb'
-  cpu_kind = 'shared'
-  cpus = 1
-  memory_mb = 2048
